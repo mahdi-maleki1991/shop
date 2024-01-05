@@ -1,0 +1,190 @@
+@media screen and (min-width:0px) and (max-width:900px) {
+    .imgShopTextImg2 {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: 15px;
+        top: 90px;
+        opacity: 60%;
+    }
+
+    /* .divMainProductMain {
+        width: 95%;
+        height: calc(100vh - 50px);
+        border: 1px solid rgba(255, 255, 255, 0.247);
+        background-color: rgba(131, 143, 214, 0.658);
+        border-radius: 5px;
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        overflow-y: auto;
+        padding: 10px;
+
+    } */
+}
+
+
+@media screen and (min-width:0px) and (max-width:750px) {
+    .divBoxOneFooter {
+        width: 100%;
+    }
+
+    .divBoxTwoFooter {
+        width: 100%;
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.171);
+    }
+
+    .img1Footer {
+        width: 150px;
+        height: 140px;
+        top: -80px;
+    }
+
+    .divLeftAboutusPage p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .sectionMainBasket {
+        flex-wrap: wrap;
+    }
+
+    .divShowProductInBasket {
+        width: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+
+    .divShowPricesInBasket { 
+        width: 100%;
+        min-height: 200px;
+
+    }
+    .divHeaderSearchKeeper {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:650px) {
+    .imgShopTextImgMain {
+        max-width: 300px;
+        height: 300px;
+        right: 10px;
+        top: -100px;
+    }
+
+    .divRandomLeft {
+        display: none;
+    }
+
+    .arrowBeltLeft {
+        left: 20px;
+    }
+    .divErrorPagination{
+        font-size: 80px;
+    }
+    .divHeaderSearchKeeper {
+        width: 180px;
+    }
+}
+
+
+@media screen and (min-width:0px) and (max-width:500px) {
+
+    .divBoxInfoShape p {
+        font-size: 13px !important;
+    }
+
+    .divBoxInfoShape h2 {
+        font-size: 27px !important;
+        font-weight: 700;
+    }
+
+    .divBoxInfoShape {
+        left: 0px !important;
+        padding: 10px;
+    }
+
+
+    .divCircleShape {
+        width: 130px;
+        height: 130px;
+    }
+
+    .divOneQandOneAns {
+        font-size: 14px;
+    }
+
+    .img1Footer {
+        width: 120px;
+        height: 110px;
+        top: -80px;
+    }
+
+    .divLeftAboutusPage p {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .divLeftAboutusPage h2 {
+        font-size: 33px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .divMainCat {
+        padding: 10px;
+    }
+
+    .waveHeaderInBasket{
+        top: -25px;
+        left: -10%;
+    }
+    .divHeaderSearchKeeper {
+        width: 150px;
+    }
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:400px) {
+    .YourQuestionsMainSection {
+        padding: 10px 20px 40px 10px;
+    }
+
+    .divBoxQandAMain {
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+
+    .divBoxFooterOneOne {
+        flex-wrap: wrap;
+    }
+
+    .divBoxFooterOneOne p {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    .divHeaderSearchKeeper {
+        display: none;
+    }
+    .divErrorPagination{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:350px) {
+    .divLeftAboutusPage p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+}

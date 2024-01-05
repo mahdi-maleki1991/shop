@@ -1,0 +1,63 @@
+.divMainGoUp {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(69, 124, 187);
+    border-radius: 50%;
+    border: 2px solid rgb(82, 122, 230);
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    opacity: 0 ;
+    right: -100px;
+}
+.divMainGoUp:hover{
+    transform: scale(1.1,1.1);
+    transition: transform .4s;
+}
+.diShowGoUpActive {
+    animation-name: aniGoUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.diShowGoUpDeActive {
+    animation-name: aniGoUpDeActive;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aniGoUp {
+    0% {
+        right: -100px;
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        right: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes aniGoUpDeActive {
+    0% {
+        right: 20px;
+        opacity: 1;
+    }
+
+    100% {
+        right: -100px;
+        opacity: 0;
+    }
+}
+
+.iconGoUp {
+    font-size: 25px;
+    color: white;
+}

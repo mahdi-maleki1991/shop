@@ -1,0 +1,180 @@
+.secMainFooter {
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(0deg, rgb(4, 30, 44), rgba(14, 58, 83, 0.096));
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.divBoxOneFooter {
+    width: 50%;
+}
+
+.div2boxkeeperFooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divBoxTwoFooter {
+    width: 50%;
+    height: 100%;
+    min-height: 440px;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    border-right: none;
+    border-bottom: none;
+    /* background-color: rgb(37, 151, 46); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.divBoxThreeFooter {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.171);
+    /* background-color: rgb(162, 176, 255); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divBoxThreeFooter span{
+    color: rgba(236, 240, 255, 0.37);
+    font-size: 13px;
+}
+.divBoxFooterOneOne {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    border-top: 1px solid rgba(255, 255, 255, 0.171);
+
+}
+
+.divBoxFooterOneOne h3 {
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    font-weight: 800;
+color: rgb(71, 108, 230);
+}
+
+.divBoxFooterOneOne p {
+    width: 300px;
+    color: rgb(36, 36, 36);
+}
+
+.divBoxFooterOneTwo {
+    width: 100%;
+    min-height: 218px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+.divBoxFooterOneTwo li:hover{
+    color: rgb(16, 51, 71);
+    transition:  .3s;
+}
+.ulOneFooter{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.ulOneFooter li{
+    min-width: 120px;
+    text-align: start;
+    margin-top: 4px;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+}
+
+.ulTowFooter{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.ulTowFooter li{
+    min-width: 120px;
+    text-align: start;
+    margin-top: 4px;
+    user-select: none;
+    cursor: pointer;
+    color: white; 
+}
+
+.divInputKeeprtFooter {
+    width: 100%;
+    height: 33px;
+    position: relative;
+    margin-top: 15px;
+    max-width: 400px;
+}
+
+.inputsInFooter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+    color: rgb(68, 68, 68);
+    border-radius: 5px;
+}
+
+.iconsInputFooter {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    font-size: 19px;
+    color: rgb(122, 122, 122);
+}
+
+.divBoxTwoFooter h2 {
+    color: rgb(54, 90, 211);
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.btnSigninFastFooter {
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(0, 77, 0);
+    background-color: rgb(0, 77, 0);
+    color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}
+
+.btnSigninFastFooter:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 61, 4);
+    transition: all .4s;
+}
+
+.img1Footer {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    right: 20px;
+    top: -120px;
+}

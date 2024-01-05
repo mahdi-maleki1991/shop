@@ -1,0 +1,144 @@
+.YourQuestionsMainSection {
+    width: 100%;
+    min-height: 200px;
+    background-image: linear-gradient(0deg, rgb(250, 252, 255), rgb(220, 232, 255));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px 20px 40px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.YourQuestionsMainSection h2 {
+    color: rgb(53, 73, 161);
+    z-index: 4;
+}
+
+.YourQuestionsMainSection .divsearchInputKeeper {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    position: relative;
+}
+
+.YourQuestionsMainSection input {
+    color: rgb(99, 99, 99);
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(156, 156, 156, 0.678);
+    /* border-radius: 0px 0px 8px 8px; */
+    height: 100%;
+    font-size: 19px;
+    padding-left: 35px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    background-color: rgba(240, 248, 255, 0.096);
+
+}
+
+.divsearchInputKeeper .iconSearch {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    color: rgb(121, 121, 121);
+    z-index: 7;
+    font-size: 21px;
+}
+
+.divBoxQandAMain {
+    width: 100%;
+    max-width: 1100px;
+    border: 2px solid rgba(109, 155, 240, 0.089);
+    background-color: rgba(168, 188, 224, 0.192);
+    min-height: 150px;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    overflow: hidden;
+}
+
+
+.divOneQandOneAns {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border: 1px solid rgba(5, 103, 216, 0.178);
+    background-color: rgba(52, 94, 172, 0.082);
+    z-index: 4;
+    font-size: 17px;
+}
+
+.divQuestionOnly {
+    width: 100%;
+    min-height: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.divAnswerOnlyDeactive {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 0px;
+    overflow-y: hidden;
+    transition: height .6s;
+    padding-left: 50px;
+    /* border-top: 1px solid rgb(138, 163, 219); */
+    background-color: rgba(20, 75, 54, 0.075);
+}
+
+.divAnswerOnlyActive {
+    width: 100%;
+    border: 1px solid rgba(53, 69, 138, 0.651);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px 5px 30px;
+    overflow: hidden;
+    height: 100px;
+    transition: height .6s;
+}
+
+.shap3SecQA {
+    width: 300px;
+    height: 300px;
+    top: 230px;
+    right: 10%;
+    position: absolute;
+    opacity: 30%;
+}
+
+.shap3SecQASmall {
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 10%;
+    position: absolute;
+    opacity: 70%;
+}
+
+.shap3SecQASmall2 {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 2%;
+    position: absolute;
+    opacity: 70%;
+}

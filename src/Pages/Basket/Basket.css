@@ -1,0 +1,366 @@
+
+.sectionMainBasket{
+    width: 100%;
+    display: flex;
+
+}
+
+.divShowProductInBasket {
+    width: 90%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px 50px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* min-width: 450px; */
+    overflow-y: auto;
+
+}
+.divShowProductInBasketEmpty {
+    width: 90%;
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 10px 50px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-y: auto;
+    user-select: none;
+}
+
+.divShowProductInBasket::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(241, 241, 241);
+}
+
+.divShowProductInBasket::-webkit-scrollbar-thumb {
+    background-color: rgb(214, 214, 214);
+    border-radius: 4px;
+}
+
+
+.divInfoIMGkeeperBasket {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divBoxProductInBasket {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.divBoxProductInBasket:hover {
+    background-color: rgb(247, 247, 247);
+    transition: all .3s;
+}
+.divBoxProductInBasket:nth-child(2){
+    margin-top: 150px;
+}
+.imgProInShoingBasket {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+
+}
+
+.divInfoKeeperInBasket {
+    min-width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 10px;
+    user-select: none;
+
+}
+
+.divInfoKeeperInBasket span:nth-child(1) {
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+}
+
+.divInfoKeeperInBasket span:nth-child(2) {
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    padding-left: 10px;
+}
+
+.divPlusMinesInBasket {
+    height: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spanBasketshowEachPro {
+    font-size: 13px !important;
+    width: 30px;
+    color: rgb(104, 104, 104) !important;
+}
+
+.IconPlusProductInBasket {
+    font-size: 11px;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+.IconPlusProductInBasket:hover {
+    color: black;
+}
+
+.IconMinesProductInBasket:hover {
+    color: black;
+}
+
+.IconMinesProductInBasket {
+    font-size: 11px;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+.divShowPricAndClose {
+    min-width: 90px;
+    min-height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.divShowPricAndClose span {
+    color: rgb(122, 165, 221);
+    font-size: 16px;
+    user-select: none;
+    font-weight: 600;
+}
+
+.iconCloseShowBasket {
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.iconCloseShowBasket:hover {
+    color: rgb(197, 136, 136);
+}
+
+.divShowPricesInBasket {
+    width: 10%;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 10px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.divShowPricesInBasket span {
+    color: rgb(99, 99, 99);
+    margin-bottom: 5px;
+}
+
+.divInputsDiscountKeeper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px 25px 0px;
+}
+.iconCodeInDiscount{
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    color: rgba(0, 128, 128, 0.863);
+}
+.inputBTNdiscount {
+    outline: none;
+    border: 1px solid rgba(0, 128, 128, 0.747);
+    color: white;
+    background-color: teal;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70px;
+    font-size: 14px;
+    height: 30px;
+    
+}
+.inputBTNdiscount:hover{
+    color: teal;
+    transition: all .3s;
+    background-color: white;
+}
+.inutTextDiscountCode {
+    outline: none;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 3px;
+    padding-left: 28px;
+    height: 30px;
+}
+.inutTextDiscountCode::placeholder{
+    font-size: 13px;
+    color: rgb(184, 184, 184);
+}
+.divInfoRowBasket {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 15px;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.918);
+}
+
+.divInfoRowBasket span {
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+.iconWaletBigInBasketPage{
+    font-size: 55px;
+    color: teal;
+    margin: 10px 0px 40px 0px;
+    
+}
+.waveHeaderInBasket{
+    width: 100%;
+    position: absolute;
+    top: -42px;
+    left: -10%;
+    z-index: -1;
+    max-height: 210px;
+    transform: rotate(-3deg);
+}
+.inputBTNPayInBasket{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(0, 92, 0);
+    color: rgb(0, 92, 0);
+    background-color: white;
+    margin-top: 30px;
+    max-width: 350px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.spanMove{
+    position: absolute;
+    width: 15px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.233);
+    top: -10px;
+    left: -40px;
+    transform: rotate(-35deg);
+}
+.spanMove2{
+    position: absolute;
+    width: 5px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.349);
+    top: -10px;
+    left: -40px;
+    transform: rotate(-35deg);
+    z-index: 2;
+}
+
+@keyframes aniBTNprice {
+    0%{
+        left: -30px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+@keyframes aniBTNprice2 {
+    0%{
+        left: -45px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+.inputBTNPayInBasket:hover{
+    background-color: rgb(0, 92, 0);
+    color: white;
+    transition: .3s;
+}
+.inputBTNPayInBasket:hover .spanMove2 {
+    animation-name:aniBTNprice2 ;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:1;
+    animation-delay: .2s;
+}
+.inputBTNPayInBasket:hover .spanMove {
+    animation-name:aniBTNprice ;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:1;
+    animation-delay: .2s;
+}
+.inputBTNPayInBasketEmpty{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(172, 172, 172);
+    color: rgb(238, 238, 238);
+    background-color: rgba(124, 124, 124, 0.651);
+    margin-top: 30px;
+    max-width: 350px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    cursor:default !important;
+}
+.inputBTNClearAllInBasket{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: white;
+    margin-top: 20px;
+    max-width: 350px;
+    border-radius: 4px;
+}
+.inputBTNClearAllInBasketEmpty{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgba(124, 124, 124, 0.651);
+    color: rgb(241, 241, 241);
+    margin-top: 20px;
+    max-width: 350px;
+    border-radius: 4px;
+    cursor:default !important;
+}
+.inputBTNClearAllInBasket:hover{
+    color: tomato;
+    background-color: white;
+    transition: .3s;
+}
+.spanBasketisEmpty{
+    font-size: 40px;
+    color: rgb(197, 197, 197);
+    font-weight: 700;
+}

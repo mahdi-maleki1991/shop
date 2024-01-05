@@ -1,0 +1,97 @@
+.sectionShapTextImg {
+    width: 100%;
+    height: 100vh;
+    min-height: 580px;
+    max-height: 670px;
+    background-image: linear-gradient(.2deg, rgba(36, 70, 114, 0.89), rgb(255, 255, 255));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+.imgShopTextImgMain {
+    max-width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: -100px;
+}
+
+.divCircleShape {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(34, 78, 51, 0.63);
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+    right: 100px;
+}
+
+.divBoxInfoShape {
+    max-width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border: 1px solid rgba(201, 201, 201, 0.767);
+    border-radius: 7px;
+    z-index: 2;
+    left: 5%;
+    position: absolute;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+
+}
+
+.divBoxInfoShape p {
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    margin-top: 20px;
+}
+
+.divBoxInfoShape h2 {
+    font-size: 36px;
+    color: rgb(45, 80, 145);
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgShopTextImg2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 50px;
+}
+
+.btnReadMoreShap {
+    width: 130px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(52, 119, 163);
+    color: rgb(52, 119, 163);
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 17px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnReadMoreShap:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 119, 163);
+    transition: all .4s;
+}
+
+
+
+

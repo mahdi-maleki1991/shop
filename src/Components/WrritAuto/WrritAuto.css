@@ -1,0 +1,16 @@
+
+
+
+.divWrritAuto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(61, 119, 158);
+    min-height: 60px;
+    /* background-color: rgb(243, 243, 243); */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* padding-left: 20px; */
+}
+
+

@@ -1,0 +1,44 @@
+.sectionTwoPart {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    background-image: url(../../../public/Images/shap1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.sectionTwoPart2 {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.imgToPart {
+    width: 100%;
+}
+
+.btnTwoPart {
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(255, 110, 84);
+    background-color: rgb(255, 126, 103);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btnTwoPart:hover {
+    background-color: white;
+    color: tomato;
+    transition: all .6s;
+
+}

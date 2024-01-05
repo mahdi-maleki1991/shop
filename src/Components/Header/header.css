@@ -1,0 +1,202 @@
+.mainHeader {
+    width: 100%;
+    min-height: 250px;
+    /* border: 1px solid rgb(179, 179, 179); */
+    background-image: url(../../../public/Images/wave.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.divLogoInHeader {
+    width: 100%;
+    height: 110px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 20px;
+    overflow: hidden;
+}
+
+.imgMainLogo {
+    width: 110px;
+    height: 110px;
+}
+
+.divHeaderSearchKeeper {
+    width: 400px;
+    height: 30px;
+    position: relative;
+}
+
+.inputSearchHeader {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 6px;
+    padding-left: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.iconSearchHeaderInput {
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+}
+
+.iconHeaderTrolly {
+    font-size: 21px;
+    color: rgb(29, 85, 170);
+    user-select: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.spanSigninHeader {
+    margin-right: 10px;
+    font-size: 17px;
+    color: rgb(145, 145, 145);
+    user-select: none;
+    cursor: pointer;
+}
+
+.iconSupportHeader {
+    font-size: 21px;
+    color: rgb(29, 85, 170);
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.iconSupportHeader:hover {
+    color: rgb(82, 142, 233);
+    transition: all .4s;
+}
+
+.iconHeaderTrolly:hover {
+    color: rgb(82, 142, 233);
+    transition: all .4s;
+}
+
+.iconHeaderSignin {
+    font-size: 21px;
+    color: rgb(29, 85, 170);
+    margin-right: 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.iconHeaderSignin:hover {
+    color: rgb(82, 142, 233);
+    transition: all .4s;
+}
+
+.divHeaderItems {
+    width: 100%;
+    /* height: 80px; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0px 0px 0px;
+
+}
+
+.mainUlHeader {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+}
+
+.mainUlHeader li {
+    margin-right: 10px;
+    height: 38px;
+    color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    user-select: none;
+    cursor: pointer;
+    padding: 0px 15px 0px 15px;
+}
+
+.mainUlHeader li:hover {
+    transition: all .3s;
+    background-image: linear-gradient(230deg, rgba(161, 191, 255, 0.247), rgba(255, 255, 255, 0));
+}
+
+.iconsItemsHeader {
+    color: rgb(67, 95, 187);
+    margin-right: 10px;
+}
+
+
+.divConNightMod {
+    width: 45px;
+    height: 23px;
+    border: 1px solid rgba(76, 198, 255, 0.315);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.divCircleNightMode {
+    height: 19px;
+    width: 20px;
+    background-color: rgb(110, 110, 110);
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: right .5s, background-color .5s;
+
+}
+
+.divCircleNightModeNight {
+    height: 19px;
+    width: 20px;
+    background-color: rgb(109, 154, 175);
+    position: absolute;
+    top: 1px;
+    right: 22px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: right .5s, background-color .5s;
+}
+
+.NspanNightmod {
+    color: rgb(121, 121, 121);
+    font-size: 10px;
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    top: 3px;
+    user-select: none;
+}
+
+.DspanNightmod {
+    color: rgb(93, 153, 209);
+    font-size: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    left: 5px;
+    user-select: none;
+}
