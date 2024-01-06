@@ -18,25 +18,25 @@ import { allCatsType } from "./types"
 // ]
 
 export let slidShowData: slidshowType = [
-    './../Images/SlidShow/1.jpg',
-    './../Images/SlidShow/2.jpg',
-    './../Images/SlidShow/3.jpg',
-    './../Images/SlidShow/4.jpg',
-    './../Images/SlidShow/5.jpg',
+    'https://5.imimg.com/data5/MU/DV/MY-2/family-tents-500x500.png',
+    'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/616zsN8uZAL._AC_UY1000_.jpg',
+    'https://5.imimg.com/data5/EE/KC/ZF/SELLER-4032621/first-aid-kit-500x500.png',
+    'https://m.media-amazon.com/images/I/61tNeogZQNL.jpg',
+    'https://m.media-amazon.com/images/I/51OvNvdgzGL._AC_UF1000,1000_QL80_.jpg',
 ]
 
 
 ///////////////////// CATs //////////////////////
 
 export let allCats: allCatsType = [
-    { id: 0, catTittle: 'Clothing', imgAddres: './../Images/Cat/c1.jpg' },
-    { id: 1, catTittle: 'Defensive', imgAddres: './../Images/Cat/c2.jpg' },
-    { id: 3, catTittle: 'Lighting', imgAddres: './../Images/Cat/c3.jpg' },
-    { id: 4, catTittle: 'Heating', imgAddres: './../Images/Cat/c4.jpg' },
-    { id: 5, catTittle: 'Tent', imgAddres: './../Images/Cat/c5.jpg' },
-    { id: 6, catTittle: 'Backpack', imgAddres: './../Images/Cat/c6.jpg' },
-    { id: 7, catTittle: 'Climbing tool', imgAddres: './../Images/Cat/c7.jpg' },
-    { id: 8, catTittle: 'First aid', imgAddres: './../Images/Cat/c8.jpg' },
+    { id: 0, catTittle: 'Clothing', imgAddres: 'https://img.freepik.com/premium-vector/hand-drawn-flat-winter-clothes-essentials-collection_23-2149161299.jpg?w=360' },
+    { id: 1, catTittle: 'Defensive', imgAddres: 'https://img.fruugo.com/product/0/53/613164530_max.jpg' },
+    { id: 3, catTittle: 'Lighting', imgAddres: 'https://www.kafkamercantile.com/images/products/verylarge/1685458206snowpeak_9936.JPG' },
+    { id: 4, catTittle: 'Heating', imgAddres: 'https://images.thdstatic.com/productImages/b58dbfbd-24be-4ffe-935d-3d4e6c090f18/svn/multi-mr-heater-propane-heaters-f232000-64_600.jpg' },
+    { id: 5, catTittle: 'Tent', imgAddres: 'https://static-01.daraz.pk/p/80a58ed4b27a5ef4d5a33af8d31a3253.jpg_750x750.jpg_.webp' },
+    { id: 6, catTittle: 'Backpack', imgAddres: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/616zsN8uZAL._AC_UY1000_.jpg' },
+    { id: 7, catTittle: 'Climbing tool', imgAddres: 'https://5.imimg.com/data5/SELLER/Default/2023/4/302390632/VW/OF/ML/188055628/x-500x500.jpg' },
+    { id: 8, catTittle: 'First aid', imgAddres: 'https://5.imimg.com/data5/EE/KC/ZF/SELLER-4032621/first-aid-kit-500x500.png' },
 ]
 
 ///////////////////// basket //////////////////////

@@ -53,7 +53,7 @@ export default function Header() {
             <div className='mainHeader'>
                 {/* -------------------------------Step One------------------- */}
                 <div className="divLogoInHeader">
-                    <img src="../Images/logoHeader.png" className='imgMainLogo' data-aos='zoom-in' data-aos-duration='1100' />
+                    <img src="https://img.freepik.com/premium-vector/mountains-camping-logo-design-vector-outdoor-template-icon-logo-winter-camp-illustrations_766202-20.jpg?w=2000" className='imgMainLogo' data-aos='zoom-in' data-aos-duration='1100' />
                     <div className="divHeaderSearchKeeper " data-aos='flip-up' data-aos-delay='100'
                         data-aos-duration="1000">
                         <input type="text" className='inputSearchHeader' placeholder='Search ...' />
