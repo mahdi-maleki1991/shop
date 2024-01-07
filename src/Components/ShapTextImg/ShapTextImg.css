@@ -18,18 +18,20 @@
     border-radius: 50%;
     position: absolute;
     right: 100px;
-    top: -100px;
-    opacity: 30%;
+    top: -20px;
+    opacity: 80%;
+    z-index: 1;
 }
 
 .divCircleShape {
-    width: 150px;
-    height: 150px;
-    background-color: rgba(34, 78, 51, 0.63);
+    width: 130px;
+    height: 130px;
+    background-color: rgba(32, 71, 47, 0.397);
     border-radius: 50%;
     position: absolute;
-    top: 280px;
+    top: 300px;
     right: 100px;
+    z-index: 1;
 }
 
 .divBoxInfoShape {
@@ -70,6 +72,8 @@
     position: absolute;
     left: 10%;
     top: 50px;
+    z-index: 0;
+    opacity: 20%;
 }
 
 .btnReadMoreShap {

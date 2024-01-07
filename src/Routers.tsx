@@ -13,6 +13,7 @@ import { ProductsInCat } from "./Pages/ProductsInCat/ProductsInCat"
 export let pageRoutes = [
 
     { path: '/', element: <Home /> },
+    { path: 'https://mahdi-maleki1991.github.io/shop', element: <Home /> }, //for github
     { path: '/Aboutus', element: <Aboutus /> },
     { path: '/Category', element: <Category /> },
     { path: '/Product/:productID', element: <Product /> },

@@ -117,7 +117,7 @@ export let AllProduct: productType = [
         id: 4,
         cat: 'Clothing',
         name: 'Winter Scarf',
-        imgAddres: './../Images/Products/5.jpg',
+        imgAddres: 'https://www.fourruresgrenier.ca/wp-content/uploads/4981-Rus.jpg',
         star: 5,
         price: 1400,
         width: '140 Cm',

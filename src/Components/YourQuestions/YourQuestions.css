@@ -122,16 +122,16 @@
     top: 230px;
     right: 10%;
     position: absolute;
-    opacity: 30%;
+    opacity: 25%;
 }
 
 .shap3SecQASmall {
     width: 200px;
     height: 200px;
-    top: 10px;
+    top: 70px;
     left: 10%;
     position: absolute;
-    opacity: 30%;
+    opacity: 15%;
 }
 
 .shap3SecQASmall2 {
@@ -140,5 +140,5 @@
     top: 10px;
     left: 2%;
     position: absolute;
-    opacity: 30%;
+    opacity: 35%;
 }

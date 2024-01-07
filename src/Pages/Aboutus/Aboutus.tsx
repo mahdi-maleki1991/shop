@@ -25,7 +25,7 @@ export function Aboutus() {
 
 
                 <div className="divRightAboutusPage">
-                    {/* <img src="./Images/me.jpg" className='imgAboutusMe' data-aos='slide-right' /> */}
+                    {/* <img src="./../../public/Images/me.jpg" className='imgAboutusMe' data-aos='slide-right' /> */}
                 </div>
 
                 <div className="divLeftAboutusPage"data-aos='zoom-in'>

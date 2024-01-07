@@ -80,7 +80,7 @@
     overflow: hidden;
 }
 .divImgProductZoom:hover{
-    border: 1px solid rgb(182, 182, 182);
+    border: 2px solid rgb(214, 214, 214);
     cursor: zoom-in;
 }
 .IMGProductLeftMainShowing {
@@ -91,6 +91,7 @@
 
 .IMGProductLeftMainShowing:hover {
     transform: scale(3.2, 3.2); 
+    transition: transform .9s;
 }
 
 .divBoxShowImgsProduct {

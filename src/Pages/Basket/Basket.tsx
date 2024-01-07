@@ -113,7 +113,7 @@ export function Basket() {
 
                 <div className={basketArray.length == 0 ? 'divShowProductInBasketEmpty' : 'divShowProductInBasket'}>
 
-                    <img src="./Images/waveHeader.png" className='waveHeaderInBasket'
+                    <img src="https://www.pngkey.com/png/full/114-1148325_curve-shape-png-jpg-royalty-free-library-curve.png" className='waveHeaderInBasket'
                         data-aos='fade-down' data-aos-delay='800' data-aos-duration='3000' />
                     {generatBasketProduct()}
                 </div>

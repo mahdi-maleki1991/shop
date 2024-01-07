@@ -74,7 +74,7 @@
         max-width: 300px;
         height: 300px;
         right: 10px;
-        top: -100px;
+        top: -20px;
     }
 
     .divRandomLeft {
@@ -178,6 +178,9 @@
     }
     .divErrorPagination{
         font-size: 40px;
+    }
+    .shap3SecQASmall {
+        display: none;
     }
 }
 

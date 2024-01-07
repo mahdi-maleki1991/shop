@@ -14,10 +14,14 @@
 .divRightAboutusPage {
     max-height: 500px;
     max-width: 400px;
+    min-width: 350px;
+    min-height: 470px;
     overflow: hidden;
     background-image: url(./../../../public/Images/me.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
+    z-index: 10;
 }
 
 /* .imgAboutusMe {
