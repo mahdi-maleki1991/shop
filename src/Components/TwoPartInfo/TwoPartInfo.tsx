@@ -25,7 +25,7 @@ export default function TwoPartInfo() {
 
                     <Col className='d-none d-md-flex' xs={{ span: 12 }} md={{ span: 6 }} data-aos='slide-right'>
                         <section className='sectionTwoPart2'>
-                            <img src="./Images/toPartIMG.jpg" className='imgToPart' />
+                            <img src="https://png.pngtree.com/png-clipart/20230421/original/pngtree-outdoor-camping-logo-vector-picture-image_9119380.png" className='imgToPart' />
                         </section>
                     </Col>
 

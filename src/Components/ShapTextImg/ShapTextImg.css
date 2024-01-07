@@ -19,6 +19,7 @@
     position: absolute;
     right: 100px;
     top: -100px;
+    opacity: 30%;
 }
 
 .divCircleShape {

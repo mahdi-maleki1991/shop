@@ -101,9 +101,9 @@ export default function YourQuestions() {
                         // -----Generating Questions And Answares
                         generateQuestionAnswar()
                     }
-                    <img src="./../Images/shap3.png" className='shap3SecQA' />
-                    <img src="./../Images/shap4.png" className='shap3SecQASmall' />
-                    <img src="./../Images/shap4.png" className='shap3SecQASmall2' />
+                    <img src="https://c3.klipartz.com/pngpicture/49/96/sticker-png-free-hud-shapes-thumbnail.png" className='shap3SecQA' />
+                    <img src="https://static.vecteezy.com/system/resources/previews/012/422/186/original/blob-design-shape-with-transparent-background-png.png" className='shap3SecQASmall' />
+                    <img src="https://image.pngaaa.com/698/77698-middle.png" className='shap3SecQASmall2' />
                 </div>
 
             </section>

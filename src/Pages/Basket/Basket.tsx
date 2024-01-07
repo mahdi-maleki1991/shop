@@ -24,17 +24,17 @@ export function Basket() {
     const [price, setPrice] = useState<number>(0)
 
 
-    
-    
+
+
     useEffect(() => {
         generatBasketProduct()
         calculatePrices()
         Aos.init({ once: true })
     }, [basketArray])
-    
-    useEffect(()=>{
+
+    useEffect(() => {
         window.scroll({ top: 250, left: 0, behavior: 'smooth' })
-    },[])
+    }, [])
 
     const calculatePrices = () => {
         setPrice(0)
@@ -82,12 +82,8 @@ export function Basket() {
 
     const clearAllBasket = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         if (basketArray.length > 0) {
-            if (e.shiftKey) {
-                storBasket.dispatch({ type: 'deleteAll' })
-                toast.success('The Basket is Empty', { theme: 'dark' })
-            } else {
-                toast.warn('In order to Clear All items,Please Holde SHIFT key', { theme: 'dark' })
-            }
+            storBasket.dispatch({ type: 'deleteAll' })
+            toast.success('The Basket is Empty', { theme: 'dark' })
         }
     }
 
@@ -117,7 +113,7 @@ export function Basket() {
 
                 <div className={basketArray.length == 0 ? 'divShowProductInBasketEmpty' : 'divShowProductInBasket'}>
 
-                    <img src="./../../Images/waveHeader.png" className='waveHeaderInBasket'
+                    <img src="./Images/waveHeader.png" className='waveHeaderInBasket'
                         data-aos='fade-down' data-aos-delay='800' data-aos-duration='3000' />
                     {generatBasketProduct()}
                 </div>

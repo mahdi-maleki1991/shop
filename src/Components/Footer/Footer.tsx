@@ -121,7 +121,7 @@ export default function Footer() {
                 </div>
 
                 <div className="divBoxThreeFooter">
-                    <img src="https://png.pngtree.com/element_our/sm/20180515/sm_5afaf0b15875b.jpg" className='img1Footer' />
+                    <img src="https://png.pngtree.com/png-clipart/20230421/original/pngtree-outdoor-camping-logo-vector-picture-image_9119380.png" className='img1Footer' />
                     <span>this Site is stablished by Mahdi Maleki</span>
                     <span>Email : mahdi_maleki1991@yahoo.com</span>
                 </div>

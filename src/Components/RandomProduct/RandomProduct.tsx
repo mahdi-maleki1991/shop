@@ -12,7 +12,7 @@ import { ProductBox } from '../ProductBox/ProductBox'
 
 
 
-// this Component is showing the product that has morethan ziro discount
+// this Component is showing the product that has more than ziro discount
 
 
 export default function RandomProduct() {
@@ -77,11 +77,11 @@ export default function RandomProduct() {
 
                 <div className="divRandomLeft">
                     <h3 style={{ color: 'white' }}> shake your leg... </h3>
-                    <img src="../Images/imgOff.png" className='imgOff' />
+                    <img src="https://png.pngtree.com/png-vector/20220521/ourmid/pngtree-10-discount-png-image-png-image_4644322.png" className='imgOff' />
                     <input type="button" value=" SALE " className='btnOffLeft' />
                 </div>
                 <div className="divRandomRight" ref={mainDivRandom}>
-                    <MdKeyboardArrowRight className='aroowBeltRight' onClick={beltGoRight} />
+                    <MdKeyboardArrowRight className='aroowBeltRight' onClick={beltGoRight}/>
                     {/* ---This Function is Generating discount Boxes */}
                     {
                         boxDiscountHandler()

@@ -18,8 +18,8 @@ export default function ShapTextImg() {
 
             <section className="sectionShapTextImg">
 
-                <img src="./../Images/circleIMG.jpg" className='imgShopTextImgMain' />
-                <img src="./../Images/shap2.png" className='imgShopTextImg2' />
+                <img src="https://assets.terrapass.com/wp-content/uploads/2017/08/bigstock-Hiking-people-hikers-couple-on-191683519.jpg" className='imgShopTextImgMain' />
+                <img src="https://wordee.netlify.app/image/flame-christmas-blue-background.png" className='imgShopTextImg2' />
                 <div className="divCircleShape"></div>
 
 
