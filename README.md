@@ -1,11 +1,19 @@
-<h1><a href="https://mahdi-maleki1991.github.io/shop/">Online store site</a></h1>
+<h1><u><a href="https://mahdi-maleki1991.github.io/shop/">Online store site</a></u></h1>
 <h3>
     The purpose of developing this site
 </h3>
 <p>
-    This project was  Designed and developed with the aim of creating a work resume for the programmer of this site.
+    This template has been developed for use in online shopping sites. which can be easily used.
 </p>
 <hr/>
+<h3>Steps to use</h3>
+<p>
+    <ul>
+        <li>Clone Project</li>
+        <li>npm install</li>
+    </ul>
+</p>
+<hr>
 <h3>Introduction</h3>
 <p>
     This is an online store site that has been developed as a single page.
